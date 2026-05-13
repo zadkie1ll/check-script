@@ -21,23 +21,21 @@ CLI-скрипт для быстрой проверки новой VPS на пр
 ## Быстрый запуск
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/USERNAME/vpn-vps-checker/main/run.sh | bash
+curl -fsSL https://raw.githubusercontent.com/zadkie1ll/check-script/main/run.sh | bash
 ```
 
 Более безопасный вариант:
 
 ```bash
-curl -fsSL -o run.sh https://raw.githubusercontent.com/USERNAME/vpn-vps-checker/main/run.sh
+curl -fsSL -o run.sh https://raw.githubusercontent.com/zadkie1ll/check-script/main/run.sh
 chmod +x run.sh
 ./run.sh
 ```
 
-Замените `USERNAME` на имя GitHub-аккаунта или организации, где лежит репозиторий.
-
 Можно также переопределить URL:
 
 ```bash
-VPN_VPS_CHECKER_BASE_URL=https://raw.githubusercontent.com/you/vpn-vps-checker/main bash run.sh
+VPN_VPS_CHECKER_BASE_URL=https://raw.githubusercontent.com/zadkie1ll/check-script/main bash run.sh
 ```
 
 ## Локальный запуск

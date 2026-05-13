@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-BASE_URL="${VPN_VPS_CHECKER_BASE_URL:-https://raw.githubusercontent.com/USERNAME/vpn-vps-checker/main}"
+BASE_URL="${VPN_VPS_CHECKER_BASE_URL:-https://raw.githubusercontent.com/zadkie1ll/check-script/main}"
 WORKDIR="$(mktemp -d /tmp/vpn-vps-checker-run-XXXXXX)"
 VENV_DIR="/tmp/vpn-vps-checker-venv"
 
