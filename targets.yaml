@@ -1,0 +1,635 @@
+- name: Telegram
+  category: messengers
+  url: https://telegram.org
+  host: telegram.org
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Telegram API
+  category: messengers
+  url: https://api.telegram.org
+  host: api.telegram.org
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403, 404]
+- name: WhatsApp
+  category: messengers
+  url: https://www.whatsapp.com
+  host: www.whatsapp.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: WhatsApp Web
+  category: messengers
+  url: https://web.whatsapp.com
+  host: web.whatsapp.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Signal
+  category: messengers
+  url: https://signal.org
+  host: signal.org
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Discord
+  category: messengers
+  url: https://discord.com
+  host: discord.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Skype
+  category: messengers
+  url: https://www.skype.com
+  host: www.skype.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Viber
+  category: messengers
+  url: https://www.viber.com
+  host: www.viber.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Line
+  category: messengers
+  url: https://line.me
+  host: line.me
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: WeChat
+  category: messengers
+  url: https://www.wechat.com
+  host: www.wechat.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: KakaoTalk
+  category: messengers
+  url: https://www.kakaocorp.com
+  host: www.kakaocorp.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Slack
+  category: messengers
+  url: https://slack.com
+  host: slack.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Microsoft Teams
+  category: messengers
+  url: https://teams.microsoft.com
+  host: teams.microsoft.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+
+- name: Instagram
+  category: social
+  url: https://www.instagram.com
+  host: www.instagram.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Facebook
+  category: social
+  url: https://www.facebook.com
+  host: www.facebook.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: X / Twitter
+  category: social
+  url: https://x.com
+  host: x.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: TikTok
+  category: social
+  url: https://www.tiktok.com
+  host: www.tiktok.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Reddit
+  category: social
+  url: https://www.reddit.com
+  host: www.reddit.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Snapchat
+  category: social
+  url: https://www.snapchat.com
+  host: www.snapchat.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Pinterest
+  category: social
+  url: https://www.pinterest.com
+  host: www.pinterest.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: LinkedIn
+  category: social
+  url: https://www.linkedin.com
+  host: www.linkedin.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Tumblr
+  category: social
+  url: https://www.tumblr.com
+  host: www.tumblr.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Threads
+  category: social
+  url: https://www.threads.net
+  host: www.threads.net
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Bluesky
+  category: social
+  url: https://bsky.app
+  host: bsky.app
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Mastodon
+  category: social
+  url: https://mastodon.social
+  host: mastodon.social
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: VK
+  category: social
+  url: https://vk.com
+  host: vk.com
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403, 418]
+- name: OK.ru
+  category: social
+  url: https://ok.ru
+  host: ok.ru
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Weibo
+  category: social
+  url: https://weibo.com
+  host: weibo.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: QQ
+  category: social
+  url: https://www.qq.com
+  host: www.qq.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Douyin
+  category: social
+  url: https://www.douyin.com
+  host: www.douyin.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+
+- name: YouTube
+  category: video_streaming
+  url: https://www.youtube.com
+  host: www.youtube.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: YouTube Music
+  category: video_streaming
+  url: https://music.youtube.com
+  host: music.youtube.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Netflix
+  category: video_streaming
+  url: https://www.netflix.com
+  host: www.netflix.com
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Twitch
+  category: video_streaming
+  url: https://www.twitch.tv
+  host: www.twitch.tv
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Vimeo
+  category: video_streaming
+  url: https://vimeo.com
+  host: vimeo.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Dailymotion
+  category: video_streaming
+  url: https://www.dailymotion.com
+  host: www.dailymotion.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Kick
+  category: video_streaming
+  url: https://kick.com
+  host: kick.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Rutube
+  category: video_streaming
+  url: https://rutube.ru
+  host: rutube.ru
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Disney Plus
+  category: video_streaming
+  url: https://www.disneyplus.com
+  host: www.disneyplus.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Hulu
+  category: video_streaming
+  url: https://www.hulu.com
+  host: www.hulu.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: HBO Max / Max
+  category: video_streaming
+  url: https://www.max.com
+  host: www.max.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Amazon Prime Video
+  category: video_streaming
+  url: https://www.primevideo.com
+  host: www.primevideo.com
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Apple TV
+  category: video_streaming
+  url: https://tv.apple.com
+  host: tv.apple.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Crunchyroll
+  category: video_streaming
+  url: https://www.crunchyroll.com
+  host: www.crunchyroll.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Spotify
+  category: video_streaming
+  url: https://open.spotify.com
+  host: open.spotify.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: SoundCloud
+  category: video_streaming
+  url: https://soundcloud.com
+  host: soundcloud.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Deezer
+  category: video_streaming
+  url: https://www.deezer.com
+  host: www.deezer.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Tidal
+  category: video_streaming
+  url: https://tidal.com
+  host: tidal.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+
+- name: ChatGPT
+  category: ai
+  url: https://chatgpt.com
+  host: chatgpt.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: OpenAI API
+  category: ai
+  url: https://api.openai.com/v1/models
+  host: api.openai.com
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 401, 403, 404]
+- name: Claude
+  category: ai
+  url: https://claude.ai
+  host: claude.ai
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Anthropic API
+  category: ai
+  url: https://api.anthropic.com
+  host: api.anthropic.com
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 401, 403, 404]
+- name: Gemini
+  category: ai
+  url: https://gemini.google.com
+  host: gemini.google.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Google AI Studio
+  category: ai
+  url: https://aistudio.google.com
+  host: aistudio.google.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Perplexity
+  category: ai
+  url: https://www.perplexity.ai
+  host: www.perplexity.ai
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Poe
+  category: ai
+  url: https://poe.com
+  host: poe.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Grok
+  category: ai
+  url: https://grok.com
+  host: grok.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Hugging Face
+  category: ai
+  url: https://huggingface.co
+  host: huggingface.co
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: DeepSeek
+  category: ai
+  url: https://chat.deepseek.com
+  host: chat.deepseek.com
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Mistral AI
+  category: ai
+  url: https://mistral.ai
+  host: mistral.ai
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: GitHub Copilot
+  category: ai
+  url: https://github.com/features/copilot
+  host: github.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Cursor
+  category: ai
+  url: https://www.cursor.com
+  host: www.cursor.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+
+- name: GitHub
+  category: dev
+  url: https://github.com
+  host: github.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: GitLab
+  category: dev
+  url: https://gitlab.com
+  host: gitlab.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Bitbucket
+  category: dev
+  url: https://bitbucket.org
+  host: bitbucket.org
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Docker Hub
+  category: dev
+  url: https://hub.docker.com
+  host: hub.docker.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: npm
+  category: dev
+  url: https://registry.npmjs.org
+  host: registry.npmjs.org
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: PyPI
+  category: dev
+  url: https://pypi.org
+  host: pypi.org
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Maven Central
+  category: dev
+  url: https://repo.maven.apache.org/maven2/
+  host: repo.maven.apache.org
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: crates.io
+  category: dev
+  url: https://crates.io/api/v1/crates?per_page=1
+  host: crates.io
+  port: 443
+  method: GET
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Go proxy
+  category: dev
+  url: https://proxy.golang.org
+  host: proxy.golang.org
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Stack Overflow
+  category: dev
+  url: https://stackoverflow.com
+  host: stackoverflow.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Cloudflare
+  category: dev
+  url: https://www.cloudflare.com
+  host: www.cloudflare.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Google
+  category: dev
+  url: https://www.google.com
+  host: www.google.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Google DNS
+  category: dev
+  url: https://dns.google
+  host: dns.google
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Apple
+  category: dev
+  url: https://www.apple.com
+  host: www.apple.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Microsoft
+  category: dev
+  url: https://www.microsoft.com
+  host: www.microsoft.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Azure
+  category: dev
+  url: https://azure.microsoft.com
+  host: azure.microsoft.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: AWS
+  category: dev
+  url: https://aws.amazon.com
+  host: aws.amazon.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Yandex Cloud
+  category: dev
+  url: https://cloud.yandex.com
+  host: cloud.yandex.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+
+- name: Google Search
+  category: search_and_mail
+  url: https://www.google.com/search?q=vpn
+  host: www.google.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Bing
+  category: search_and_mail
+  url: https://www.bing.com
+  host: www.bing.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: DuckDuckGo
+  category: search_and_mail
+  url: https://duckduckgo.com
+  host: duckduckgo.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Yahoo
+  category: search_and_mail
+  url: https://www.yahoo.com
+  host: www.yahoo.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Gmail
+  category: search_and_mail
+  url: https://mail.google.com
+  host: mail.google.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Outlook
+  category: search_and_mail
+  url: https://outlook.live.com
+  host: outlook.live.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Proton Mail
+  category: search_and_mail
+  url: https://mail.proton.me
+  host: mail.proton.me
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: iCloud Mail
+  category: search_and_mail
+  url: https://www.icloud.com/mail
+  host: www.icloud.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Yahoo Mail
+  category: search_and_mail
+  url: https://mail.yahoo.com
+  host: mail.yahoo.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
+- name: Yandex Mail
+  category: search_and_mail
+  url: https://mail.yandex.com
+  host: mail.yandex.com
+  port: 443
+  method: HEAD
+  expected_statuses: [200, 204, 301, 302, 307, 308, 403]
